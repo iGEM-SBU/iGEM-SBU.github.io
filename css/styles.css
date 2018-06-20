@@ -1,0 +1,55 @@
+/*  
+TAGS
+*/
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+/*
+CLASS
+*/
+.example {
+
+}
+
+.overflow-auto {
+	overflow: auto;
+}
+
+/*
+ID
+*/
+#example {
+
+}
+
+#project-title { 
+	color: #809D76;
+/*	font-weight: bold;*/
+}
+
+#project-subtitle {
+	color: #809D76;	
+}
+
+#introduction {
+	background-color: #E4FFD9;
+}
+
+#the-problem {
+	background-color: #DF3244;
+}
+
+#our-solution {
+	background-color: #FF9900;
+}
+
+#conclusion {
+	background-color: #FFC166;
+}
+
+#footer { 
+	background-color:  #FFC166;
+	/*padding-top: 20vh;*/
+}
