@@ -1,16 +1,17 @@
 /* Index-specific styles */
 
-body {
-	background-color: #E4FFD9;
+@media only screen and (min-width: 600px) {
+	body {
+		background-color: #E4FFD9;
+	}
+
+
 }
 
-.splash {
-	height: 100vh;
-	width: 100%;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	position: relative;
-	background-color: #FFD966;
+@media only screen and (min-width: 600px) {
+	body {
+		background-color: #E4FFD9;
+	}
+
+
 }
