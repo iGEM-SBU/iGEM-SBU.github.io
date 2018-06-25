@@ -49,16 +49,16 @@
 
 	.the-problem {
 		background-color: #DF3244;
-		padding-top: 5vh;
+		padding-top: 7vh;
 		/*margin-bottom: 15vh;*/
-		height: 50vh;
+		height: 60vh;
 		margin-bottom: 0;
 	}
 
 	.our-solution {
 		background-color: #FF9900;
-		padding-top: 5vh;
-		height: 65vh;
+		padding-top: 7vh;
+		height: 100vh;
 		/*overflow: hidden;*/
 		/*margin-bottom: 20vh;*/
 	}
@@ -70,8 +70,8 @@
 	.conclusion {
 		background-color: #FFC166;
 		margin-top: -30vh;
-		padding-top: 5vh;
-		height: 100vh;
+		padding-top: 7vh;
+		height: 75vh;
 	}
 
 	.splash {
