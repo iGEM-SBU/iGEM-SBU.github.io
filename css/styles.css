@@ -51,14 +51,14 @@
 		background-color: #DF3244;
 		padding-top: 7vh;
 		/*margin-bottom: 15vh;*/
-		height: 60vh;
+		height: 80vh;
 		margin-bottom: 0;
 	}
 
 	.our-solution {
 		background-color: #FF9900;
 		padding-top: 7vh;
-		height: 100vh;
+		height: 110vh;
 		/*overflow: hidden;*/
 		/*margin-bottom: 20vh;*/
 	}
@@ -71,7 +71,7 @@
 		background-color: #FFC166;
 		margin-top: -30vh;
 		padding-top: 7vh;
-		height: 75vh;
+		height: 90vh;
 	}
 
 	.splash {
