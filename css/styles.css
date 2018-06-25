@@ -17,6 +17,22 @@ CLASS
 	overflow: auto;
 }
 
+.jarallax {
+	position: relative;
+	z-index: 0;
+}
+.jarallax > .jarallax-img {
+	position: absolute;
+	object-fit: cover;
+	/* support for plugin https://github.com/bfred-it/object-fit-images */
+	font-family: 'object-fit: cover;';
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+
 /*
 ID
 */
@@ -39,17 +55,39 @@ ID
 
 #the-problem {
 	background-color: #DF3244;
+	padding-top: 5vh;
+	margin-bottom: 15vh;
+	height: 30vh;
+	margin-bottom: 0;
 }
 
 #our-solution {
 	background-color: #FF9900;
+	padding-top: 5vh;
+	height: 50vh;
+	margin-bottom: 0;
 }
 
 #conclusion {
 	background-color: #FFC166;
+	padding-top: 5vh;
+	height: 50vh;
 }
 
 #footer { 
 	background-color:  #FFC166;
+	height: 50vh;
 	/*padding-top: 20vh;*/
+}
+
+#redContainer {
+	background-color: #DF3244;
+}
+
+#orangeContainer {
+	background-color: #FF9900;
+}
+
+#creamContainer { 
+	background-color: #FFC166;
 }
