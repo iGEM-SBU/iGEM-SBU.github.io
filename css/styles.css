@@ -1,212 +1,325 @@
 
-@media only screen and (max-width: 600px) {
-/*  TAGS  */
-	body {
-		margin: 0px;
-		padding: 0px;
-	}
+/*MOBILE PORTRAIT*/
+@media only screen and (max-width: 600px) and (orientation: portrait) {
+	/*  TAGS  */
+
+		body {
+			margin: 0px;
+			padding: 0px;
+		}
 
 	/*  CLASS  */
 
-	.overflow-auto {
-		overflow: auto;
-	}
+		.overflow-auto {
+			overflow: auto;
+		}
 
-	.throw-bottom {
-		vertical-align:bottom;
-        border:0;
-	}
+		.throw-bottom {
+			vertical-align:bottom;
+	        border:0;
+		}
 
-	.jarallax {
-		position: relative;
-		z-index: 0;
-	}
-	.jarallax > .jarallax-img {
-		position: absolute;
-		object-fit: cover;
-		/* support for plugin https://github.com/bfred-it/object-fit-images */
-		font-family: 'object-fit: cover;';
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		z-index: -1;
-	}
+		.jarallax {
+			position: relative;
+			z-index: 0;
+		}
+
+		.jarallax > .jarallax-img {
+			position: absolute;
+			object-fit: cover;
+			/* support for plugin https://github.com/bfred-it/object-fit-images */
+			font-family: 'object-fit: cover;';
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			z-index: -1;
+		}
+
+		.introduction {
+			background-color: #E4FFD9;
+		}
+
+		.the-problem {
+			background-color: #DF3244;
+			padding-top: 7vh;
+			height: 80vh;
+			margin-bottom: 0;
+		}
+
+		.our-solution {
+			background-color: #FF9900;
+			padding-top: 7vh;
+			height: 110vh;
+		}
+
+		.overflow-hidden { 
+			overflow: hidden;
+		}
+
+		.conclusion {
+			background-color: #FFC166;
+			margin-top: -30vh;
+			padding-top: 7vh;
+			height: 90vh;
+		}
+
+		.splash {
+			height: 100vh;
+			width: 100%;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+			position: relative;
+			background-color: #E4FFD9;
+		}
 
 	/*  ID  */
+		
+		#splashImage {
+			max-width: 100%;
+		}
 
-	#project-title { 
-		color: #809D76;
-	}
+		#project-title { 
+			color: #809D76;
+		}
 
-	#project-subtitle {
-		color: #809D76;	
-	}
+		#project-subtitle {
+			color: #809D76;	
+		}
 
-	.introduction {
-		background-color: #E4FFD9;
-	}
+		#footer { 
+			background-color:  #FFC166;
+		}
 
-	.the-problem {
-		background-color: #DF3244;
-		padding-top: 7vh;
-		/*margin-bottom: 15vh;*/
-		height: 80vh;
-		margin-bottom: 0;
-	}
+		#redContainer {
+			background-color: #DF3244;
+		}
 
-	.our-solution {
-		background-color: #FF9900;
-		padding-top: 7vh;
-		height: 110vh;
-		/*overflow: hidden;*/
-		/*margin-bottom: 20vh;*/
-	}
+		#orangeContainer {
+			background-color: #FF9900;
+		}
 
-	.overflow-hidden { 
-		overflow: hidden;
-	}
-
-	.conclusion {
-		background-color: #FFC166;
-		margin-top: -30vh;
-		padding-top: 7vh;
-		height: 90vh;
-	}
-
-	.splash {
-		height: 100vh;
-		width: 100%;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-		position: relative;
-		background-color: #E4FFD9;
-	}
-
-	#footer { 
-	background-color:  #FFC166;
-	/*height: 50vh;*/
-	/*padding-top: 20vh;*/
-	}
-
-	#redContainer {
-		background-color: #DF3244;
-	}
-
-	#orangeContainer {
-		background-color: #FF9900;
-	}
-
-	#creamContainer { 
-		background-color: #FFC166;
-	}
+		#creamContainer { 
+			background-color: #FFC166;
+		}
 }
 
-@media only screen and (min-width: 600px) {
-
+/*MOBILE LANDSCAPE*/
+@media only screen and (max-width: 736px) and (orientation: landscape) {
 	/*  TAGS  */
-	body {
-		margin: 0px;
-		padding: 0px;
-	}
+
+		body {
+			margin: 0px;
+			padding: 0px;
+		}
 
 	/*  CLASS  */
 
-	.overflow-auto {
-		overflow: auto;
-	}
+		.overflow-auto {
+			overflow: auto;
+		}
 
-	.throw-bottom { 
-		vertical-align:bottom;
-        border:0;
-	}
+		.throw-bottom {
+			vertical-align:bottom;
+	        border:0;
+		}
 
-	.jarallax {
-		position: relative;
-		z-index: 0;
-	}
-	.jarallax > .jarallax-img {
-		position: absolute;
-		object-fit: cover;
-		/* support for plugin https://github.com/bfred-it/object-fit-images */
-		font-family: 'object-fit: cover;';
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		z-index: -1;
-	}
+		.jarallax {
+			position: relative;
+			z-index: 0;
+		}
+
+		.jarallax > .jarallax-img {
+			position: absolute;
+			object-fit: cover;
+			font-family: 'object-fit: cover;';
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			z-index: -1;
+		}
+
+		.introduction {
+			background-color: #E4FFD9;
+		}
+
+		.the-problem {
+			background-color: #DF3244;
+			padding-top: 7vh;
+			height: 100vh;
+			margin-bottom: 0;
+		}
+
+
+		.our-solution {
+			background-color: #FF9900;
+			padding-top: 7vh;
+			height: 110vh;
+		}
+
+		.overflow-hidden { 
+			overflow: hidden;
+		}
+
+		.conclusion {
+			background-color: #FFC166;
+			margin-top: -45vh;
+			padding-top: 7vh;
+			height: 90vh;
+		}
+
+		.splash {
+			height: 100vh;
+			width: 100%;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+			position: relative;
+			background-color: #E4FFD9;
+		}
+
+		.wonkfix {
+			/*width: 20px;*/
+		}
+
+	/*  ID  */
+		
+		#splashImage {
+			width: 50%;
+		}
+
+		#project-title { 
+			color: #809D76;
+		}
+
+		#project-subtitle {
+			color: #809D76;	
+		}
+
+		#footer { 
+			background-color:  #FFC166;
+		}
+
+		#redContainer {
+			background-color: #DF3244;
+		}
+
+		#orangeContainer {
+			background-color: #FF9900;
+		}
+
+		#creamContainer { 
+			background-color: #FFC166;
+		}
+}
+
+/*DESKTOP OR TABLET*/
+@media only screen and (min-width: 737px) {
+	/*  TAGS  */
+
+		body {
+			margin: 0px;
+			padding: 0px;
+		}
+
+	/*  CLASS  */
+
+		.overflow-auto {
+			overflow: auto;
+		}
+
+		.throw-bottom { 
+			vertical-align:bottom;
+	        border:0;
+		}
+
+		.jarallax {
+			position: relative;
+			z-index: 0;
+		}
+
+		.jarallax > .jarallax-img {
+			position: absolute;
+			object-fit: cover;
+			/* support for plugin https://github.com/bfred-it/object-fit-images */
+			font-family: 'object-fit: cover;';
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			z-index: -1;
+		}
+
+		.introduction {
+			background-color: #E4FFD9;
+		}
+
+		.the-problem {
+			background-color: #DF3244;
+			padding-top: 5vh;
+			height: 30vh;
+			margin-bottom: 0;
+		}
+
+		.our-solution {
+			background-color: #FF9900;
+			padding-top: 5vh;
+			height: 50vh;
+			margin-bottom: 0;
+		}
+
+		.overflow-hidden { 
+			overflow: hidden;
+		}
+
+		.conclusion {
+			background-color: #FFC166;
+			margin-top: -18vh;
+			padding-top: 5vh;
+			height: 50vh;
+			overflow: hidden;
+		}
+
+		.splash {
+			height: 100vh;
+			width: 100%;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+			position: relative;
+			background-color: #E4FFD9;
+		}
 
 	/*  ID  */
 
-	#project-title { 
-		color: #809D76;
-	}
+		#splashImage {  }
 
-	#project-subtitle {
-		color: #809D76;	
-	}
+		#project-title { 
+			color: #809D76;
+		}
 
-	.introduction {
-		background-color: #E4FFD9;
-	}
+		#project-subtitle {
+			color: #809D76;	
+		}
 
-	.the-problem {
-		background-color: #DF3244;
-		padding-top: 5vh;
-		/*margin-bottom: 15vh;*/
-		height: 30vh;
-		margin-bottom: 0;
-	}
+		#footer { 
+			background-color:  #FFC166;
+		}
 
-	.our-solution {
-		background-color: #FF9900;
-		padding-top: 5vh;
-		height: 50vh;
-		/*overflow: scroll;*/
-		margin-bottom: 0;
-	}
+		#redContainer {
+			background-color: #DF3244;
+		}
 
-	.overflow-hidden { 
-		overflow: hidden;
-	}
+		#orangeContainer {
+			background-color: #FF9900;
+		}
 
-	.conclusion {
-		background-color: #FFC166;
-		margin-top: -18vh;
-		padding-top: 5vh;
-		height: 50vh;
-		overflow: hidden;
-	}
-
-	.splash {
-		height: 100vh;
-		width: 100%;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-		position: relative;
-		background-color: #E4FFD9;
-	}
-
-	#footer { 
-	background-color:  #FFC166;
-	/*height: 50vh;*/
-	/*padding-top: 20vh;*/
-	}
-
-	#redContainer {
-		background-color: #DF3244;
-	}
-
-	#orangeContainer {
-		background-color: #FF9900;
-	}
-
-	#creamContainer { 
-		background-color: #FFC166;
-	}
+		#creamContainer { 
+			background-color: #FFC166;
+		}
 }
