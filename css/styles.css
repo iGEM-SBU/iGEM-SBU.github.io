@@ -19,8 +19,137 @@
 
 	/*  CLASS  */
 		.navbar-color {
-
+			background-color: #DF3243;
 		}
+
+		.navbar-red {
+			background-color: #F35867;
+		}
+
+		.navbar-orange {
+			background-color: #E77E34;
+		}
+
+		.navbar-blue {
+			background-color: #63BCB0;
+		}
+
+		.navbar-green {
+			background-color: #63D24C;
+		}
+
+		.text-red {
+			color: #DF3243 !important;
+		}
+
+		.text-red-light {
+			color: #F9828D !important;
+		}
+
+		.text-orange {
+			color: #E77E34 !important;
+		}
+
+		.text-orange-light {
+			color: #FFB886 !important;
+		}
+
+		.text-blue {
+			color: #209181 !important;
+		}
+
+		.text-blue-light {
+			color: #63BCB0 !important;
+		}
+
+		.text-green {
+			color: #63D24C !important;
+		}
+
+		.text-green-light {
+			color: #89E176 !important;
+		}
+
+		.color-red {
+			color: #DF3243;
+		}
+
+		.color-red-light {
+			color: #F9828D;
+		}
+
+		.color-red-midlight {
+			color: #F35867;
+		}
+
+		.color-red-middark {
+			color: #BD1323;
+		}
+
+		.color-red-dark {
+			color: #960311;
+		}
+
+		.color-orange {
+			color: #E77E34;
+		}
+
+		.color-orange-light {
+			color: #FFB886;
+		}
+
+		.color-orange-midlight {
+			color: #FB9D5B;
+		}
+
+		.color-orange-middark {
+			color: #C45D14;
+		}
+
+		.color-orange-dark {
+			color: #9C4203;
+		}
+
+		.color-blue {
+			color: #209181;
+		}
+
+		.color-blue-light {
+			color: #63BCB0;
+		}
+
+		.color-blue-midlight {
+			color: #399E90;
+		}
+
+		.color-blue-middark {
+			color: #0C7B6C;
+		}
+
+		.color-blue-dark {
+			color: #026255;
+		}
+
+		.color-green {
+			color: #45C12B;
+		}
+
+		.color-green-light {
+			color: #89E176;
+		}
+
+		.color-green-midlight {
+			color: #63D24C;
+		}
+
+		.color-green-middark {
+			color: #2AA310;
+		}
+
+		.color-green-dark {
+			color: #188202;
+		}
+
 
 		.transparent {
 			opacity: 0.5;
@@ -150,7 +279,135 @@
 
 	/*  CLASS  */
 		.navbar-color {
-			
+			background-color: #DF3243;
+		}
+
+		.navbar-red {
+			background-color: #F35867;
+		}
+
+		.navbar-orange {
+			background-color: #E77E34;
+		}
+
+		.navbar-blue {
+			background-color: #63BCB0;
+		}
+
+		.navbar-green {
+			background-color: #63D24C;
+		}
+
+		.text-red {
+			color: #DF3243 !important;
+		}
+
+		.text-red-light {
+			color: #F9828D !important;
+		}
+
+		.text-orange {
+			color: #E77E34 !important;
+		}
+
+		.text-orange-light {
+			color: #FFB886 !important;
+		}
+
+		.text-blue {
+			color: #209181 !important;
+		}
+
+		.text-blue-light {
+			color: #63BCB0 !important;
+		}
+
+		.text-green {
+			color: #63D24C !important;
+		}
+
+		.text-green-light {
+			color: #89E176 !important;
+		}
+
+		.color-red {
+			color: #DF3243;
+		}
+
+		.color-red-light {
+			color: #F9828D;
+		}
+
+		.color-red-midlight {
+			color: #F35867;
+		}
+
+		.color-red-middark {
+			color: #BD1323;
+		}
+
+		.color-red-dark {
+			color: #960311;
+		}
+
+		.color-orange {
+			color: #E77E34;
+		}
+
+		.color-orange-light {
+			color: #FFB886;
+		}
+
+		.color-orange-midlight {
+			color: #FB9D5B;
+		}
+
+		.color-orange-middark {
+			color: #C45D14;
+		}
+
+		.color-orange-dark {
+			color: #9C4203;
+		}
+
+		.color-blue {
+			color: #209181;
+		}
+
+		.color-blue-light {
+			color: #63BCB0;
+		}
+
+		.color-blue-midlight {
+			color: #399E90;
+		}
+
+		.color-blue-middark {
+			color: #0C7B6C;
+		}
+
+		.color-blue-dark {
+			color: #026255;
+		}
+
+		.color-green {
+			color: #45C12B;
+		}
+
+		.color-green-light {
+			color: #89E176;
+		}
+
+		.color-green-midlight {
+			color: #63D24C;
+		}
+
+		.color-green-middark {
+			color: #2AA310;
+		}
+
+		.color-green-dark {
+			color: #188202;
 		}
 
 		.transparent {
@@ -254,10 +511,6 @@
 			background-color: #FF9900;
 		}
 
-		#creamContainer { 
-			background-color: #FFC166;
-		}
-
 		#indexnav {
 			background-color: #E4FFD9;
 		}
@@ -291,7 +544,135 @@
 	/*  CLASS  */
 
 		.navbar-color {
-			
+			background-color: #DF3243;
+		}
+
+		.navbar-red {
+			background-color: #F35867;
+		}
+
+		.navbar-orange {
+			background-color: #E77E34;
+		}
+
+		.navbar-blue {
+			background-color: #63BCB0;
+		}
+
+		.navbar-green {
+			background-color: #63D24C;
+		}
+
+		.text-red {
+			color: #DF3243 !important;
+		}
+
+		.text-red-light {
+			color: #F9828D !important;
+		}
+
+		.text-orange {
+			color: #E77E34 !important;
+		}
+
+		.text-orange-light {
+			color: #FFB886 !important;
+		}
+
+		.text-blue {
+			color: #209181 !important;
+		}
+
+		.text-blue-light {
+			color: #63BCB0 !important;
+		}
+
+		.text-green {
+			color: #63D24C !important;
+		}
+
+		.text-green-light {
+			color: #89E176 !important;
+		}
+
+		.color-red {
+			color: #DF3243;
+		}
+
+		.color-red-light {
+			color: #F9828D;
+		}
+
+		.color-red-midlight {
+			color: #F35867;
+		}
+
+		.color-red-middark {
+			color: #BD1323;
+		}
+
+		.color-red-dark {
+			color: #960311;
+		}
+
+		.color-orange {
+			color: #E77E34;
+		}
+
+		.color-orange-light {
+			color: #FFB886;
+		}
+
+		.color-orange-midlight {
+			color: #FB9D5B;
+		}
+
+		.color-orange-middark {
+			color: #C45D14;
+		}
+
+		.color-orange-dark {
+			color: #9C4203;
+		}
+
+		.color-blue {
+			color: #209181;
+		}
+
+		.color-blue-light {
+			color: #63BCB0;
+		}
+
+		.color-blue-midlight {
+			color: #399E90;
+		}
+
+		.color-blue-middark {
+			color: #0C7B6C;
+		}
+
+		.color-blue-dark {
+			color: #026255;
+		}
+
+		.color-green {
+			color: #45C12B;
+		}
+
+		.color-green-light {
+			color: #89E176;
+		}
+
+		.color-green-midlight {
+			color: #63D24C;
+		}
+
+		.color-green-middark {
+			color: #2AA310;
+		}
+
+		.color-green-dark {
+			color: #188202;
 		}
 
 		.transparent {
@@ -336,7 +717,7 @@
 		}
 
 		.our-solution {
-			background-color: #FF9900;
+			background-color: #E77E34;
 			padding-top: 5vh;
 			height: 50vh;
 			margin-bottom: 0;
@@ -347,7 +728,7 @@
 		}
 
 		.conclusion {
-			background-color: #FFC166;
+			background-color: #209181;
 			margin-top: -18vh;
 			padding-top: 5vh;
 			height: 50vh;
@@ -373,10 +754,6 @@
 
 		#splashImage {  }
 
-		#indexnav {
-			background-color: #E4FFD9;
-		}
-
 		#project-title { 
 			color: #809D76;
 		}
@@ -397,8 +774,8 @@
 			background-color: #FF9900;
 		}
 
-		#creamContainer { 
-			background-color: #FFC166;
+		#indexnav {
+			background-color: #E4FFD9;
 		}
 }
 
