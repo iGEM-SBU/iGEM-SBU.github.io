@@ -13,28 +13,8 @@
 
 		/*https://codepen.io/daviddarnes/pen/OgaRYw*/
 		h2 {
-			text-decoration: none;
-			position: relative;
-			padding-bottom: 1em;
-			overflow: hidden;
-			color: black;
-			&:after {
-				position: absolute;
-				top: 0;
-				left: 0;
-				right: 0;
-				bottom: 0;
-				white-space: nowrap;
-				content: attr(data-text)attr(data-text);
-				color: transparent;
-				line-height: 1.8;
-				text-decoration: underline;
-				text-decoration-style: wavy;
-				text-decoration-color: #ffc823;
-			}
-			&:hover:after {
-				animation: wavy-slide 3s linear infinite;
-			}
+			text-decoration: underline wavy;
+			text-decoration-color: #ffc823;
 		}
 
 	/*  CLASS  */
@@ -164,28 +144,8 @@
 
 		/*https://codepen.io/daviddarnes/pen/OgaRYw*/
 		h2 {
-			text-decoration: none;
-			position: relative;
-			padding-bottom: 1em;
-			overflow: hidden;
-			color: black;
-			&:after {
-				position: absolute;
-				top: 0;
-				left: 0;
-				right: 0;
-				bottom: 0;
-				white-space: nowrap;
-				content: attr(data-text)attr(data-text);
-				color: transparent;
-				line-height: 1.8;
-				text-decoration: underline;
-				text-decoration-style: wavy;
-				text-decoration-color: #ffc823;
-			}
-			&:hover:after {
-				animation: wavy-slide 3s linear infinite;
-			}
+			text-decoration: underline wavy;
+			text-decoration-color: #ffc823;
 		}
 
 	/*  CLASS  */
@@ -326,7 +286,6 @@
 			text-decoration-style: wavy;
 			text-decoration-color: #ffc823;
 		}
-
 
 
 	/*  CLASS  */
