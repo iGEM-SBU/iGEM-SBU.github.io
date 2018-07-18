@@ -22,19 +22,19 @@
 			background-color: #DF3243;
 		}
 
-		.navbar-red {
+		.background-red {
 			background-color: #F35867;
 		}
 
-		.navbar-orange {
+		.background-orange {
 			background-color: #E77E34;
 		}
 
-		.navbar-blue {
+		.background-blue {
 			background-color: #63BCB0;
 		}
 
-		.navbar-green {
+		.background-green {
 			background-color: #63D24C;
 		}
 
@@ -282,19 +282,19 @@
 			background-color: #DF3243;
 		}
 
-		.navbar-red {
+		.background-red {
 			background-color: #F35867;
 		}
 
-		.navbar-orange {
+		.background-orange {
 			background-color: #E77E34;
 		}
 
-		.navbar-blue {
+		.background-blue {
 			background-color: #63BCB0;
 		}
 
-		.navbar-green {
+		.background-green {
 			background-color: #63D24C;
 		}
 
@@ -547,19 +547,19 @@
 			background-color: #DF3243;
 		}
 
-		.navbar-red {
+		.background-red {
 			background-color: #F35867;
 		}
 
-		.navbar-orange {
+		.background-orange {
 			background-color: #E77E34;
 		}
 
-		.navbar-blue {
+		.background-blue {
 			background-color: #63BCB0;
 		}
 
-		.navbar-green {
+		.background-green {
 			background-color: #63D24C;
 		}
 
@@ -750,6 +750,22 @@
 			text-decoration-style: 
 		}
 
+		.idcard {
+			margin-top: 1em;
+			margin-bottom: 1em;
+			margin-left: 1em;
+			/*margin-right: 1em;*/
+			padding-top: 3em;
+			padding-bottom: 3em;
+			padding-left: 5em;
+			padding-right: 5em;
+
+		}
+
+		.idphoto {
+			margin-bottom: 1em;
+		}
+
 	/*  ID  */
 
 		#splashImage {  }
@@ -776,6 +792,11 @@
 
 		#indexnav {
 			background-color: #E4FFD9;
+		}
+
+		#teambody {
+			/*background-image: url("../images/team_background.jpg");*/
+			/*background-size: cover;*/
 		}
 }
 
