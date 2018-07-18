@@ -753,7 +753,7 @@
 		.idcard {
 			margin-top: 1em;
 			margin-bottom: 1em;
-			margin-left: 1em;
+			/*margin-left: 1em;*/
 			/*margin-right: 1em;*/
 			padding-top: 3em;
 			padding-bottom: 3em;
@@ -795,8 +795,8 @@
 		}
 
 		#teambody {
-			/*background-image: url("../images/team_background.jpg");*/
-			/*background-size: cover;*/
+			background-image: url("../images/team_background_extended.jpg");
+			background-size: cover;
 		}
 }
 
