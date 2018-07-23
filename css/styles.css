@@ -791,7 +791,13 @@
 			padding-bottom: 3em;
 			padding-left: 5em;
 			padding-right: 5em;
+			transition: .8s;
+			transform: scale(1.00, 1.00);
+		}
 
+		.idcard:hover {
+			transition: .5s;
+			transform: scale(1.02, 1.02);
 		}
 
 		.idphoto {
@@ -828,6 +834,6 @@
 
 		#teambody {
 			background-image: url("../images/team_background_extended.jpg");
-			background-size: cover;
+			background-size: cover 100%;
 		}
 }
