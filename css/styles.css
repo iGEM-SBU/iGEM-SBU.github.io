@@ -225,6 +225,20 @@
 			background-color: #E4FFD9;
 		}
 
+		.idcard {
+			margin-top: 1em;
+			margin-bottom: 1em;
+			padding-top: 3em;
+			padding-bottom: 3em;
+			padding-left: 5em;
+			padding-right: 5em;
+
+		}
+
+		.idphoto {
+			margin-bottom: 1em;
+		}
+
 	/*  ID  */
 		
 		#splashImage {
@@ -257,6 +271,11 @@
 
 		#indexnav {
 			background-color: #E4FFD9;
+		}
+
+		#teambody {
+			background-image: url("../images/team_background_extended.jpg");
+			background-size: auto;
 		}
 }
 
@@ -480,8 +499,18 @@
 			background-color: #E4FFD9;
 		}
 
-		.wonkfix {
-			/*width: 20px;*/
+		.idcard {
+			margin-top: 1em;
+			margin-bottom: 1em;
+			padding-top: 3em;
+			padding-bottom: 3em;
+			padding-left: 5em;
+			padding-right: 5em;
+
+		}
+
+		.idphoto {
+			margin-bottom: 1em;
 		}
 
 
@@ -513,6 +542,11 @@
 
 		#indexnav {
 			background-color: #E4FFD9;
+		}
+
+		#teambody {
+			background-image: url("../images/team_background_extended.jpg");
+			background-size: cover;
 		}
 }
 
@@ -753,8 +787,6 @@
 		.idcard {
 			margin-top: 1em;
 			margin-bottom: 1em;
-			/*margin-left: 1em;*/
-			/*margin-right: 1em;*/
 			padding-top: 3em;
 			padding-bottom: 3em;
 			padding-left: 5em;
@@ -799,9 +831,3 @@
 			background-size: cover;
 		}
 }
-
-		@keyframes wavy-slide {
-			to {
-				margin-left: -51%;
-			}
-		}
