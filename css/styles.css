@@ -31,7 +31,7 @@
 		}
 
 		.background-blue {
-			background-color: #63BCB0;
+			background-color: #209181;
 		}
 
 		.background-green {
@@ -310,7 +310,7 @@
 		}
 
 		.background-blue {
-			background-color: #63BCB0;
+			background-color: #209181;
 		}
 
 		.background-green {
@@ -590,7 +590,7 @@
 		}
 
 		.background-blue {
-			background-color: #63BCB0;
+			background-color: #209181;
 		}
 
 		.background-green {
@@ -802,6 +802,14 @@
 
 		.idphoto {
 			margin-bottom: 1em;
+		}
+
+		.header-title {
+			margin-top: 2em;
+		}
+
+		.header-paragraph {
+			margin-bottom: 5em;
 		}
 
 	/*  ID  */
