@@ -575,13 +575,12 @@
 
 		/*https://codepen.io/daviddarnes/pen/OgaRYw*/
 		h2 {
-
 			text-decoration: none;
 			position: relative;
 			padding-bottom: .5em;
 			overflow: hidden;
 			text-decoration: underline;
-			text-decoration-style: wavy;
+			text-decoration-style: dotted;
 			text-decoration-color: #ffc823;
 		}
 
