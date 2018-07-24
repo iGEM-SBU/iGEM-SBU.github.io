@@ -41,7 +41,7 @@
 		.background-green-light{
 			background-color: #89E176;
 		}
-		
+
 		.text-red {
 			color: #DF3243 !important;
 		}
@@ -166,7 +166,7 @@
 
 		.throw-bottom {
 			vertical-align:bottom;
-	        border:0;
+			border:0;
 		}
 
 		.jarallax {
@@ -187,7 +187,7 @@
 		}
 
 		.navbar-inner {
-    		background:transparent;
+			background:transparent;
 		}
 
 		.introduction {
@@ -450,7 +450,7 @@
 
 		.throw-bottom {
 			vertical-align:bottom;
-	        border:0;
+			border:0;
 		}
 
 		.jarallax {
@@ -523,7 +523,6 @@
 			margin-bottom: 1em;
 		}
 
-
 	/*  ID  */
 		
 		#splashImage {
@@ -585,7 +584,6 @@
 			text-decoration-style: wavy;
 			text-decoration-color: #ffc823;
 		}
-
 
 	/*  CLASS  */
 
@@ -735,7 +733,7 @@
 
 		.throw-bottom { 
 			vertical-align:bottom;
-	        border:0;
+			border:0;
 		}
 
 		.jarallax {
