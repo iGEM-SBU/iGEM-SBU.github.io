@@ -243,6 +243,32 @@
 			margin-bottom: 1em;
 		}
 
+		.educard {
+			margin-top: 1em;
+			margin-bottom: 1em;
+			padding-top: 3em;
+			padding-bottom: 3em;
+			padding-left: 2em;
+			padding-right: 2em;
+			transition: .8s;
+			transform: scale(1.00, 1.00);
+		}
+
+		.educard:hover {
+			transition: .5s;
+			transform: scale(1.02, 1.02);
+		}
+
+		.eduimg {
+			transition: .8s;
+			transform: scale(1.00, 1.00);
+		}
+
+		.eduimg:hover {
+			transition: .5s;
+			transform: scale(1.02, 1.02);
+		}
+
 	/*  ID  */
 		
 		#splashImage {
@@ -521,6 +547,32 @@
 
 		.idphoto {
 			margin-bottom: 1em;
+		}
+
+		.educard {
+			margin-top: 1em;
+			margin-bottom: 1em;
+			padding-top: 3em;
+			padding-bottom: 3em;
+			padding-left: 5em;
+			padding-right: 5em;
+			transition: .8s;
+			transform: scale(1.00, 1.00);
+		}
+
+		.educard:hover {
+			transition: .5s;
+			transform: scale(1.02, 1.02);
+		}
+
+		.eduimg {
+			transition: .8s;
+			transform: scale(1.00, 1.00);
+		}
+
+		.eduimg:hover {
+			transition: .5s;
+			transform: scale(1.02, 1.02);
 		}
 
 	/*  ID  */
@@ -823,6 +875,32 @@
 
 		.header-paragraph {
 			margin-bottom: 5em;
+		}
+
+		.educard {
+			margin-top: 1em;
+			margin-bottom: 1em;
+			padding-top: 3em;
+			padding-bottom: 3em;
+			padding-left: 5em;
+			padding-right: 5em;
+			transition: .8s;
+			transform: scale(1.00, 1.00);
+		}
+
+		.educard:hover {
+			transition: .5s;
+			transform: scale(1.02, 1.02);
+		}
+
+		.eduimg {
+			transition: .8s;
+			transform: scale(1.00, 1.00);
+		}
+
+		.eduimg:hover {
+			transition: .5s;
+			transform: scale(1.02, 1.02);
 		}
 
 	/*  ID  */
