@@ -162,7 +162,7 @@
 
 		.transparent {
 			opacity: 0.5;
-			filter: alpha(opacity=50); 
+			filter: alpha(opacity=50);
 		}
 
 		.overflow-auto {
@@ -212,7 +212,7 @@
 			height: 110vh;
 		}
 
-		.overflow-hidden { 
+		.overflow-hidden {
 			overflow: hidden;
 		}
 
@@ -350,14 +350,14 @@
 		.timeline::after {
 			left: 31px;
 		}
-		
+
 		/* Full-width containers */
 		.tcontainer {
 			width: 100%;
 			padding-left: 70px;
 			padding-right: 25px;
 		}
-		
+
 		/* Make sure that all arrows are pointing leftwards */
 		.tcontainer::before {
 			left: 60px;
@@ -370,29 +370,34 @@
 		.left::after, .right::after {
 			left: 15px;
 		}
-		
+
 		/* Make all right containers behave like the left ones */
 		.right {
 			left: 0%;
 		}
-		
+
+		.carousel {
+		  width:60px;
+		  height:30px;
+		}
+
 	/*  ID  */
-		
+
 		#splashImage {
 			padding-top: 12vh;
 			padding-bottom: 2vh;
 			width: 40vw;
 		}
 
-		#project-title { 
+		#project-title {
 			color: #809D76;
 		}
 
 		#project-subtitle {
-			color: #809D76;	
+			color: #809D76;
 		}
 
-		#footer { 
+		#footer {
 			background-color:  #FFC166;
 		}
 
@@ -404,7 +409,7 @@
 			background-color: #FF9900;
 		}
 
-		#creamContainer { 
+		#creamContainer {
 			background-color: #FFC166;
 		}
 
@@ -579,7 +584,7 @@
 
 		.transparent {
 			opacity: 0.5;
-			filter: alpha(opacity=50); 
+			filter: alpha(opacity=50);
 		}
 
 		.overflow-auto {
@@ -625,7 +630,7 @@
 			height: 120vh;
 		}
 
-		.overflow-hidden { 
+		.overflow-hidden {
 			overflow: hidden;
 		}
 
@@ -789,23 +794,28 @@
 			border-radius: 6px;
 		}
 
+		.carousel {
+		  width:60px;
+		  height:30px;
+		}
+
 	/*  ID  */
-		
+
 		#splashImage {
 			padding-top: 10vh;
 			padding-bottom: 2vh;
 			width: 15vw;
 		}
 
-		#project-title { 
+		#project-title {
 			color: #809D76;
 		}
 
 		#project-subtitle {
-			color: #809D76;	
+			color: #809D76;
 		}
 
-		#footer { 
+		#footer {
 			background-color:  #FFC166;
 		}
 
@@ -995,13 +1005,13 @@
 
 		.transparent {
 			opacity: 0.5;
-			filter: alpha(opacity=50); 
+			filter: alpha(opacity=50);
 		}
 		.overflow-auto {
 			overflow: auto;
 		}
 
-		.throw-bottom { 
+		.throw-bottom {
 			vertical-align:bottom;
 			border:0;
 		}
@@ -1041,7 +1051,7 @@
 			margin-bottom: 0;
 		}
 
-		.overflow-hidden { 
+		.overflow-hidden {
 			overflow: hidden;
 		}
 
@@ -1065,7 +1075,7 @@
 		}
 
 		.wavy {
-			text-decoration-style: 
+			text-decoration-style:
 		}
 
 		.idcard {
@@ -1267,23 +1277,28 @@
 			border-radius: 6px;
 		}
 
+		.carousel {
+		  width:60px;
+		  height:30px;
+		}
+
 	/*  ID  */
 
-		#splashImage {  
+		#splashImage {
 			padding-top: 10vh;
 			padding-bottom: 2vh;
 			width: 15vw;
 		}
 
-		#project-title { 
+		#project-title {
 			color: #809D76;
 		}
 
 		#project-subtitle {
-			color: #809D76;	
+			color: #809D76;
 		}
 
-		#footer { 
+		#footer {
 			background-color:  #FFC166;
 		}
 
