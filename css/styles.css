@@ -1127,6 +1127,7 @@
 			cursor: pointer;
 			transition: .8s;
 			transform: scale(1.00, 1.00);
+			margin-bottom: 1em;
 		}
 
 		.eduimg:hover {
