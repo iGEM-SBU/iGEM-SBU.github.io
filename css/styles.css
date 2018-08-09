@@ -274,6 +274,8 @@
 			transform: scale(1.02, 1.02);
 		}
 
+
+
 		.tcontainer a {
 			font-weight: bold;
 			color: darkslateblue;
@@ -298,6 +300,13 @@
 			top: 15px;
 			border-radius: 50%;
 			z-index: 1;
+		}
+
+		.centerdiv {
+		    position: absolute;
+		    top: 50%;
+		    left: 50%;
+		    transform: translate(-50%, -50%);
 		}
 
 		/* Place the container to the left */
@@ -374,11 +383,6 @@
 		/* Make all right containers behave like the left ones */
 		.right {
 			left: 0%;
-		}
-
-		.carousel {
-		  width:60px;
-		  height:30px;
 		}
 
 	/*  ID  */
@@ -794,9 +798,11 @@
 			border-radius: 6px;
 		}
 
-		.carousel {
-		  width:60px;
-		  height:30px;
+		.centerdiv {
+		    position: absolute;
+		    top: 50%;
+		    left: 50%;
+		    transform: translate(-50%, -50%);
 		}
 
 	/*  ID  */
@@ -1126,13 +1132,30 @@
 			border-radius: 5px;
 			cursor: pointer;
 			transition: .8s;
-			transform: scale(1.00, 1.00);
 			margin-bottom: 1em;
+			max-width: 100%;
+		 	-webkit-filter: blur(4px);
+		 	filter: blur(4px);
 		}
 
 		.eduimg:hover {
 			transition: .5s;
+   			-webkit-filter: blur(0px);
+		 	filter: blur(0px);
+		}
+
+		.eduimgcontainer {
+			-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+   			filter: grayscale(100%);
+   			transform: scale(1.00, 1.00);
+   			transition: .8s;
+		}
+
+		.eduimgcontainer:hover {
+			-webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
 			transform: scale(1.02, 1.02);
+   			filter: grayscale(0%);
+   			transition: .5s;
 		}
 
 	/* The Close Button */
@@ -1278,9 +1301,12 @@
 			border-radius: 6px;
 		}
 
-		.carousel {
-		  width:60px;
-		  height:30px;
+		.centerdiv {
+		    position: absolute;
+		    top: 50%;
+		    left: 50%;
+		    transform: translate(-50%, -50%);
+		    cursor: pointer;
 		}
 
 	/*  ID  */
