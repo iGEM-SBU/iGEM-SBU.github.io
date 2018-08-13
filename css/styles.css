@@ -385,6 +385,11 @@
 			left: 0%;
 		}
 
+		.carousel {
+		  width:800px;
+		  height:450px;
+		}
+
 	/*  ID  */
 
 		#splashImage {
@@ -798,6 +803,10 @@
 			border-radius: 6px;
 		}
 
+		.carousel {
+		  width:800px;
+		  height:450px;}
+
 		.centerdiv {
 		    position: absolute;
 		    top: 50%;
@@ -1198,6 +1207,10 @@
 			width: 80%;
 			max-width: 700px;
 		}
+
+		.carousel {
+		  width:800px;
+		  height:450px;}
 
 		.tcontainer a {
 			font-weight: bold;
