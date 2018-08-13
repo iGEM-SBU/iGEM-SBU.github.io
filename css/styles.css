@@ -870,9 +870,7 @@
 			position: relative;
 			padding-bottom: .5em;
 			overflow: hidden;
-			text-decoration: underline;
-			text-decoration-style: dotted;
-			text-decoration-color: #ffc823;
+			
 		}
 
 		blockquote {
