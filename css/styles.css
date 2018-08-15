@@ -1141,14 +1141,12 @@
 			transition: .8s;
 			margin-bottom: 1em;
 			max-width: 100%;
-		 	-webkit-filter: blur(4px);
-		 	filter: blur(4px);
+		 	
 		}
 
 		.eduimg:hover {
 			transition: .5s;
-   			-webkit-filter: blur(0px);
-		 	filter: blur(0px);
+   			
 		}
 
 		.eduimgcontainer {
