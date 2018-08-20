@@ -4,11 +4,8 @@
 	/*  TAGS  */
 
 		body {
-			margin-top: 0px;
-			margin-left: 0px;
-			margin-right: 0px;
-			margin-bottom: 0px;
-			padding: 0px;
+			margin: 0px;
+			padding: 0;
 		}
 
 		/*https://codepen.io/daviddarnes/pen/OgaRYw*/
@@ -183,7 +180,7 @@
 			position: absolute;
 			object-fit: cover;
 			/* support for plugin https://github.com/bfred-it/object-fit-images */
-			font-family: 'object-fit: cover;';
+			font-family: 'object-fit: cover;', serif;
 			top: 0;
 			left: 0;
 			width: 100%;
@@ -237,10 +234,7 @@
 		.idcard {
 			margin-top: 1em;
 			margin-bottom: 1em;
-			padding-top: 3em;
-			padding-bottom: 3em;
-			padding-left: 5em;
-			padding-right: 5em;
+			padding: 3em 5em;
 
 		}
 
@@ -251,10 +245,7 @@
 		.educard {
 			margin-top: 1em;
 			margin-bottom: 1em;
-			padding-top: 3em;
-			padding-bottom: 3em;
-			padding-left: 2em;
-			padding-right: 2em;
+			padding: 3em 2em;
 			transition: .8s;
 			transform: scale(1.00, 1.00);
 		}
@@ -328,7 +319,6 @@
 			width: 0;
 			z-index: 1;
 			right: 30px;
-			border: medium solid white;
 			border-width: 10px 0 10px 10px;
 			border-color: transparent transparent transparent white;
 		}
@@ -342,8 +332,7 @@
 			width: 0;
 			z-index: 1;
 			left: 30px;
-			border: medium solid white;
-			border-width: 10px 10px 10px 0px;
+			border-width: 10px 10px 10px 0;
 			border-color: transparent white transparent white;
 		}
 
@@ -370,7 +359,6 @@
 		/* Make sure that all arrows are pointing leftwards */
 		.tcontainer::before {
 			left: 60px;
-			border: medium solid white;
 			border-width: 10px 10px 10px 0;
 			border-color: transparent white transparent transparent;
 		}
@@ -382,7 +370,7 @@
 
 		/* Make all right containers behave like the left ones */
 		.right {
-			left: 0%;
+			left: 0;
 		}
 
 		.carousel {
@@ -436,11 +424,8 @@
 @media only screen and (max-width: 736px) and (orientation: landscape) {
 	/*  TAGS  */
 		body {
-			margin-top: 0px;
-			margin-left: 0px;
-			margin-right: 0px;
-			margin-bottom: 0px;
-			padding: 0px;
+			margin: 0 0 0;
+			padding: 0;
 		}
 
 		/*https://codepen.io/daviddarnes/pen/OgaRYw*/
@@ -613,7 +598,7 @@
 		.jarallax > .jarallax-img {
 			position: absolute;
 			object-fit: cover;
-			font-family: 'object-fit: cover;';
+			font-family: 'object-fit: cover;', serif;
 			top: 0;
 			left: 0;
 			width: 100%;
@@ -664,10 +649,7 @@
 		.idcard {
 			margin-top: 1em;
 			margin-bottom: 1em;
-			padding-top: 3em;
-			padding-bottom: 3em;
-			padding-left: 5em;
-			padding-right: 5em;
+			padding: 3em 5em;
 
 		}
 
@@ -678,10 +660,7 @@
 		.educard {
 			margin-top: 1em;
 			margin-bottom: 1em;
-			padding-top: 3em;
-			padding-bottom: 3em;
-			padding-left: 5em;
-			padding-right: 5em;
+			padding: 3em 5em;
 			transition: .8s;
 			transform: scale(1.00, 1.00);
 		}
@@ -766,7 +745,6 @@
 			width: 0;
 			z-index: 1;
 			right: 30px;
-			border: medium solid white;
 			border-width: 10px 0 10px 10px;
 			border-color: transparent transparent transparent white;
 		}
@@ -780,8 +758,6 @@
 			width: 0;
 			z-index: 1;
 			left: 30px;
-			border: medium solid white;
-			border-width: 10px 10px 10px 0px;
 			border-color: transparent white transparent white;
 		}
 
@@ -857,11 +833,8 @@
 	/*  TAGS  */
 
 		body {
-			margin-top: 0px;
-			margin-left: 0px;
-			margin-right: 0px;
-			margin-bottom: 0px;
-			padding: 0px;
+			margin: 0;
+			padding: 0;
 		}
 
 		/*https://codepen.io/daviddarnes/pen/OgaRYw*/
@@ -1038,7 +1011,7 @@
 			position: absolute;
 			object-fit: cover;
 			/* support for plugin https://github.com/bfred-it/object-fit-images */
-			font-family: 'object-fit: cover;';
+			font-family: 'object-fit: cover;', serif;
 			top: 0;
 			left: 0;
 			width: 100%;
@@ -1088,16 +1061,13 @@
 		}
 
 		.wavy {
-			text-decoration-style:
+			/*text-decoration-style:*/
 		}
 
 		.idcard {
 			margin-top: 1em;
 			margin-bottom: 1em;
-			padding-top: 3em;
-			padding-bottom: 3em;
-			padding-left: 5em;
-			padding-right: 5em;
+			padding: 3em 5em;
 			transition: .8s;
 			transform: scale(1.00, 1.00);
 		}
@@ -1122,10 +1092,7 @@
 		.educard {
 			margin-top: 1em;
 			margin-bottom: 1em;
-			padding-top: 3em;
-			padding-bottom: 3em;
-			padding-left: 5em;
-			padding-right: 5em;
+			padding: 3em 5em;
 			transition: .8s;
 			transform: scale(1.00, 1.00);
 		}
@@ -1273,7 +1240,6 @@
 			width: 0;
 			z-index: 1;
 			right: 30px;
-			border: medium solid white;
 			border-width: 10px 0 10px 10px;
 			border-color: transparent transparent transparent white;
 		}
@@ -1287,8 +1253,7 @@
 			width: 0;
 			z-index: 1;
 			left: 30px;
-			border: medium solid white;
-			border-width: 10px 10px 10px 0px;
+			border-width: 10px 10px 10px 0;
 			border-color: transparent white transparent white;
 		}
 
