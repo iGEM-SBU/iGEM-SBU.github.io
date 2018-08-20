@@ -4,7 +4,7 @@
 	/*  TAGS  */
 
 		body {
-			margin: 0px;
+			margin: 0;
 			padding: 0;
 		}
 
@@ -192,10 +192,6 @@
 			background:transparent;
 		}
 
-		.introduction {
-			background-color: #E4FFD9;
-		}
-
 		.the-problem {
 			background-color: #DF3244;
 			padding-top: 7vh;
@@ -228,7 +224,9 @@
 			-o-background-size: cover;
 			background-size: cover;
 			position: relative;
-			background-color: #E4FFD9;
+			/*background-color: #E4FFD9;*/
+			/*background-color: #DF3244;*/
+			background-color: #209181;
 		}
 
 		.idcard {
@@ -606,9 +604,6 @@
 			z-index: -1;
 		}
 
-		.introduction {
-			background-color: #E4FFD9;
-		}
 
 		.the-problem {
 			background-color: #DF3244;
@@ -643,7 +638,8 @@
 			-o-background-size: cover;
 			background-size: cover;
 			position: relative;
-			background-color: #E4FFD9;
+			/*background-color: #E4FFD9;*/
+			background-color: #209181;
 		}
 
 		.idcard {
@@ -1019,9 +1015,6 @@
 			z-index: -1;
 		}
 
-		.introduction {
-			background-color: #E4FFD9;
-		}
 
 		.the-problem {
 			background-color: #DF3244;
@@ -1057,7 +1050,16 @@
 			-o-background-size: cover;
 			background-size: cover;
 			position: relative;
-			background-color: #E4FFD9;
+			/*background-color: #E4FFD9;*/
+			/*background-color: #209181;background-color: #DF3244;*/
+			/*background-color: #209181;*/
+			background: #d6249f;
+			background: radial-gradient(circle at 30% 107%, #DF3243 0%, #399E90 5%, #209181 45%, #209181 60%, #026255 90%);
+		}
+
+		.radialg {
+			background: #d6249f;
+			background: radial-gradient(circle at 30% 107%, #DF3244 0%, #DF3244 5%, #fd5949 45%,#E77E34 60%,#209181 90%);
 		}
 
 		.wavy {
@@ -1292,11 +1294,11 @@
 		}
 
 		#project-title {
-			color: #809D76;
+			/*color: #809D76;*/
 		}
 
 		#project-subtitle {
-			color: #809D76;
+			/*color: #809D76;*/
 		}
 
 		#footer {
