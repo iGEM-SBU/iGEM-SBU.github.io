@@ -88,11 +88,7 @@
 			<h1 class="header-title text-white">Education & Engagement
 			</h1>
 			<p align="Justify"><br>
-			<!--=============================-->
-			<!--front paragraph-->
-			<!--NAT had an idea to make images at the top with dates then they can press on it and it will bring you to the event something that can organize everything becasue there is alot to scrole, we should also put an auto scrol to the top thing that will bring us back to the cluster of pictures-->
-			<!--IMPORTANT-->
-			<!--=============================-->
+
 
 				Science is not all about the work you do in a research laboratory, with your Erlenmeyer flask and your culture plates. Outreach is also an essential component in the field of science, where scientists can spread understanding to the general public.
 			</p>
@@ -103,6 +99,38 @@
 				Participating in these events helped this year's Stony Brook University's iGEM Team create strong bonds.
 			</p>
 		</div>
+
+			<!--=============================-->
+			<!--Click to front Button-->
+			<!--=============================-->
+
+		<div class="button">	
+			<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button> 
+		</div>
+
+		<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
+
+			<!--=============================-->
+			<!--Polaroids-->
+			<!--=============================-->
+
 		<div class="container">
 			<div class="row text-center text-white">
 				<!-- var IDarray = ["#admitted", "#bakesale", "#wtchs", "#chs", "#makers", "#fresh", "#nhsp", "#dnalc", "#smithtown", "#ecolibuds", "#lavalle", "#girlsinc", "#stepbnl", "#istem"] -->
